@@ -1,0 +1,12 @@
+.brandlogo{
+    width: 50px;
+    height: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between !important;
+}
+.borderlink{
+    border-bottom: 2px solid red;
+  
+}

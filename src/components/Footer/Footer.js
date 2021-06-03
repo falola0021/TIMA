@@ -1,44 +1,74 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
-import Styles from "./Footer.module.css";
+import React from 'react'
+import Style from './Footer.module.css'
+import { Container, Row, Col } from 'react-bootstrap'
+import FooterLogo from '../../assets/images/logo.png'
 
-// import kassandah from "../../pages/assets/kassandahwhite.png";
-import kassandahmobile from "../../pages/assets/kassandahwhite.png";
+import FootSocials from './FooterSocials'
 
-function Footer() {
+function Foot () {
   return (
-    <>
-      <footer className={Styles.footer}>
-        <Row className="mb-0 pb-0">
-          <Col sm="3">
-            <img
-              className={Styles.footerimage}
-              alt="footer"
-              src={kassandahmobile}
-            />
+    <div className={Style.footerbox}>
+      <Container>
+        <Row>
+          <Col>
+          <img className={Style.brandlogo} src='https://res.cloudinary.com/timang/image/upload/v1597037522/WhatsApp_Image_2020-08-09_at_7.58.33_PM_h85jes.jpg' />
           </Col>
-          <Col sm="3">
-            <div className={Styles.footerheader}>Content Header</div>
-            <div>Content 1</div>
-            <div>Content 2</div>
-            <div>Content 3</div>
+          <Col>
+          <div className={Style.title}>
+            About Us
+          </div>
+          <div className={Style.subtext}>
+            <div>
+              Subtext
+            </div>
+            <div>
+              Subtext
+            </div>
+            <div>
+              Subtext
+            </div>
+          </div>
           </Col>
-          <Col sm="3">
-            <div className={Styles.footerheader}>Content Header</div>
-            <div>Content 1</div>
-            <div>Content 2</div>
-            <div>Content 3</div>
+          <Col>
+          <div className={Style.title}>
+            About Us
+          </div>
+          <div className={Style.subtext}>
+            <div>
+              Subtext
+            </div>
+            <div>
+              Subtext
+            </div>
+            <div>
+              Subtext
+            </div>
+          </div>
           </Col>
-          <Col sm="3">
-            <div className={Styles.footerheader}>Content Header</div>
-            <div>Content 1</div>
-            <div>Content 2</div>
-            <div>Content 3</div>
+          <Col>
+          <div className={Style.title}>
+            About Us
+          </div>
+          <div className={Style.subtext}>
+            <div>
+              Subtext
+            </div>
+            <div>
+              Subtext
+            </div>
+            <div>
+              Subtext
+            </div>
+          </div>
           </Col>
         </Row>
-      </footer>
-    </>
-  );
+        <div className={Style.socialbox}>
+          <FootSocials/>
+        </div>
+      </Container>
+    </div>
+
+  )
 }
 
-export default Footer;
+export default Foot

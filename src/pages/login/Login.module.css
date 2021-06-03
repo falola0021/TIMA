@@ -1,0 +1,156 @@
+.body{
+   margin-top: 7%;
+   
+}
+.logisticsimage{
+    width: 100%;
+    height: auto;
+}
+.title{
+    font-size: 40px;
+}
+.titlecolor{
+    color: rgb(220,177,0);
+}
+.subtitle{
+    color: rgb(160, 160, 160);
+    font-size: 14px;
+    margin-top: 1%;
+}
+.container{
+    padding-left: 5%;
+      padding-right: 5%;
+}
+
+
+.activebutton{
+    width: 100%;
+    padding: 10px !important;
+    outline: none !important;
+    border: 1px solid rgb(220,177,0);
+    background: rgb(220,177,0);
+    color: #ffffff;
+    cursor: pointer;
+
+    }
+    .inactivebutton{
+        width: 100%;
+    padding: 10px !important;
+    outline: none !important;
+    border: 1px solid rgb(220,177,0);
+    background: transparent;
+    color: rgb(160, 160, 160);
+    cursor: pointer;
+
+
+    }
+.formbox{
+border: 1px solid rgb(220,177,0);
+
+padding: 20px;
+}
+.label{
+    font-size: 14px;
+      color: rgb(15, 15, 15);
+}
+.forminput::placeholder{
+    font-size: 14px;
+      color: rgb(160, 160, 160);
+
+    
+}
+.forminput{
+      box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid rgb(218, 218, 218);
+}
+.forminput:focus{
+       box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+.formsubmit{
+  outline: none !important;
+    background:rgb(220,177,0) !important;
+       border: 1px solid rgb(220,177,0);
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+   box-shadow: none !important;
+   margin-top: 10px;
+   margin-bottom: 20px;
+
+
+}
+
+.formsubmit:hover{
+    background:rgb(220,177,0);
+       border: 1px solid rgb(220,177,0);
+        outline: none !important;
+         box-shadow: none;
+}
+.formsubmit:focus{
+     background:rgb(220,177,0) !important;
+       border: 1px solid rgb(220,177,0) !important;
+      box-shadow: none !important;
+
+}
+.resultbox{
+    text-align: center;
+  color: rgb(220,177,0);
+  font-size: 20px;
+  font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 40px;
+       border: 1px solid rgb(220,177,0);
+    /* background:rgb(102, 102, 102) !important; */
+}
+
+.formselect:focus{
+    border: 1px solid rgb(207, 207, 207) !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.titleright{
+    font-size: 40px;
+margin-top: 30px;
+margin-left: 30px;
+
+}
+.titlecolor2{
+    color: rgb(220,177,0);
+   cursor: pointer;
+}
+.btext{
+    font-size: 14px;
+}
+
+
+
+.servicetime{
+    font-size: 14px;
+    margin-top: 30px;
+    color: rgb(65, 65, 65) ; 
+      margin: 30px;
+    /* margin-left: 30px; */
+    text-align: center;
+
+}
+
+.servicetime span{
+     color: rgb(220,177,0);
+   cursor: pointer;
+}
+
+
+.forgot{
+    text-align: center;
+    color: rgb(220,177,0);
+    font-size: 12px;
+    cursor: pointer;
+}

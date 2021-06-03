@@ -1,35 +1,29 @@
-import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { Route, Switch, BrowserRouter } from "react-router-dom";
-import LandingPage from "./pages/landingPage/LandingPage";
-import ForgotPasswordPage from "./pages/ForgotPasswordPage/ForgotPasswordPage";
-import UpdatePasswordPage from "./pages/UpdatePasswordPage/UpdatePasswordPage";
-import Profile from "./pages/Profile/Profile";
+import React from 'react'
+import Style from './App.module.css'
+import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import Home from './pages/home/Home.js'
+import Login from './pages/login/Login.js'
+import Register from './pages/register/Register.js'
+import ForgotPassword from './pages/forgot/Forgot'
+import Navbar from './components/headers/navbar/Navbar'
+import Footer from './components/footer/Footer'
 
-import User from "./pages/Users/Users";
-import { history } from "./helpers/history";
-import { clearMessage } from "./redux/actions/authActions/message";
-
-function App() {
-  // const { user: currentUser } = useSelector((state) => state.auth);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    history.listen((location) => {
-      dispatch(clearMessage()); // clear message when changing location
-    });
-  }, [dispatch]);
-
+function App () {
   return (
-    <BrowserRouter history={history}>
-      <Switch>
-        <Route exact path={["/"]} component={LandingPage} />
-        <Route exact path="/user" component={User} />
-        <Route exact path="/change-password" component={ForgotPasswordPage} />
-        <Route exact path="/update-password" component={UpdatePasswordPage} />
-        <Route exact path="/profile" component={Profile} />
-      </Switch>
-    </BrowserRouter>
-  );
+    <div>
+      <Navbar/>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path={['/']} component={Home} />
+          <Route path={['/login']} component={Login} />
+          <Route path={['/register']} component={Register} />
+          <Route path={['/forgot-password']} component={ForgotPassword} />
+          {/* <Route path='*' component={NotFound} /> */}
+        </Switch>
+      </BrowserRouter>
+      <Footer/>
+    </div>
+  )
 }
 
-export default App;
+export default App
