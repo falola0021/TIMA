@@ -1,0 +1,10 @@
+.title{
+    font-weight: 500;
+}
+.valcontainer{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 40px;
+    font-size: 30px;
+}
+

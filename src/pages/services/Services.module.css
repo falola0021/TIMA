@@ -1,0 +1,55 @@
+.body{
+   margin-top: 4%;
+    margin-bottom: 10%;
+   
+}
+
+
+
+.entrytext{
+    font-size: 34px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.photo1{
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 20px;
+}
+.subtext{
+    font-size: 14px;
+    color:rgb(150, 150, 150);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.header{
+    text-align: center;
+}
+
+
+.services{
+    font-size: 34px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.headersubtext{
+    margin-top: 20px;
+    font-size: 14px;
+   color:rgb(129, 129, 129);
+}
+
+.partner{
+    font-size: 34px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.partnerimg img{
+    width: 100%;
+    height: auto;
+}

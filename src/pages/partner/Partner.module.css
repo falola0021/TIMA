@@ -1,0 +1,113 @@
+.sidebar{
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    border-right: 1px solid rgba(220,177,0,0.2);
+    margin: 0 !important;
+}
+.brandlogo{
+    width: 40px;
+    height: auto;
+    margin: 10% auto;
+    
+
+   
+}
+.brandlogodiv{
+  
+ display: flex !important;
+ /* background: red;
+ text-align: center !important;
+ align-items: center !important; */
+
+}
+.partnername{
+   
+    color: rgb(220,177,0);
+    text-align: center;
+    font-size: 12px;
+}
+.itembox{
+    margin-top: 25px !important;
+
+}
+.itemactive{
+    font-size: 12px;
+    background: rgb(220,177,0);
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid rgb(220,177,0);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.iteminactive{
+    font-size: 12px;
+    background: gb(220,177,0);
+    color: #b1b1b1;
+     padding: 10px;
+    border: 1px solid rgb(206, 206, 206);
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+.logout{
+    margin-top: 30%;
+    text-align: end;
+    padding: 20px;
+    color: rgb(220, 0, 0);
+    cursor: pointer;
+}
+.nav{
+   
+    padding: 20px;
+    border-bottom: 1px solid rgba(220,177,0,0.2);
+}
+.navicon{
+text-align: end;
+}
+.avatar{
+    cursor: pointer;
+}
+.title{
+    font-size: 16px;
+    color: rgb(173, 173, 173);
+}
+.statcards{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    color: #ffffff;
+    background:rgb(220,177,0);
+      border: 1px solid rgba(220,177,0,0.2);
+    padding: 10px 20px 10px 20px ;
+    margin-top: 20px;
+    border-radius: 5px;
+   width: 22%;
+}
+.card2{
+    color: #ffffff;
+    background:rgb(0, 214, 246);
+      border: 1px solid rgba(220,177,0,0.2);
+    padding: 10px 20px 10px 20px ;
+    margin-top: 20px;
+    border-radius: 5px;
+     width: 22%;
+}
+.card3{
+    color: #ffffff;
+    background:rgb(255, 111, 189);
+      border: 1px solid rgba(220,177,0,0.2);
+    padding: 10px 20px 10px 20px ;
+    margin-top: 20px;
+    border-radius: 5px;
+   width: 22%;
+}
+.card4{
+    color: #ffffff;
+    background:rgb(0, 214, 175);
+      border: 1px solid rgba(220,177,0,0.2);
+    padding: 10px 20px 10px 20px ;
+    margin-top: 20px;
+    border-radius: 5px;
+ width: 22%;
+}
