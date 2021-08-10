@@ -1,0 +1,45 @@
+.label{
+    font-size: 14px;
+      color: rgb(15, 15, 15);
+}
+.forminput::placeholder{
+    font-size: 14px;
+      color: rgb(160, 160, 160);
+
+    
+}
+.forminput{
+      box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+.formsubmitbox{
+width: 100%;
+text-align: center !important;
+margin-bottom: 40px;
+ margin-top: 40px;
+    }
+
+.formsubmit{
+  outline: none !important;
+    border: 1px solid rgb(220,177,0);
+    background: transparent;
+    color: rgb(220,177,0);
+    font-weight: bold;
+    cursor: pointer;
+   padding-left: 50px;
+   padding-right: 50px;
+   box-shadow: none !important;
+  text-align: center !important;
+}
+.formsubmit:hover{
+  border: 1px solid rgb(220,177,0);
+    background: rgb(220,177,0);
+    
+}
+.formsubmit:active{
+  border: 1px solid rgb(220,177,0);
+    background: rgb(220,177,0);
+    
+}

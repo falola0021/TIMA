@@ -1,0 +1,169 @@
+.col {
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 7px;
+  padding: 20px;
+  min-height: 100vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.coyimage {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.box {
+  margin-top: 20px;
+}
+.namebox {
+  display: flex;
+  margin-bottom: 20px;
+}
+.label {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.value {
+  font-size: 14px;
+  color: rgb(161, 161, 161);
+}
+.button {
+  display: flex;
+}
+
+.new {
+  background: rgb(61, 61, 61);
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.edit {
+  background: rgb(247, 168, 0);
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+}
+.edit:hover {
+  background: rgb(247, 168, 0);
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+}
+
+.delete {
+  background: red;
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.delete:hover {
+  background: red;
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.brandlogo {
+  width: 40px;
+  height: auto;
+}
+.headerbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.headertext {
+  font-size: 16px;
+  color: rgb(173, 173, 173);
+}
+
+.label {
+  font-size: 14px;
+  color: rgb(15, 15, 15);
+}
+.forminput::placeholder {
+  font-size: 14px;
+  color: rgb(160, 160, 160);
+}
+.forminput {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+.formsubmitbox {
+  width: 100%;
+  text-align: center !important;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.formsubmit {
+  outline: none !important;
+  border: 1px solid rgb(220, 177, 0);
+  background: transparent;
+  color: rgb(220, 177, 0);
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: none !important;
+  text-align: center !important;
+}
+.formsubmit:hover {
+  border: 1px solid rgb(220, 177, 0);
+  background: rgb(220, 177, 0);
+}
+.formsubmit:active {
+  border: 1px solid rgb(220, 177, 0);
+  background: rgb(220, 177, 0);
+}
+.formfile {
+  border: 1px solid rgb(207, 207, 207) !important;
+  outline: none !important;
+  box-shadow: none !important;
+  margin-bottom: 4%;
+  width: 100% !important;
+  padding: 2px;
+  border-radius: 5px;
+}
+.formselect {
+  border: 1px solid rgb(207, 207, 207) !important;
+  outline: none !important;
+  box-shadow: none !important;
+  margin-bottom: 4%;
+  width: 100% !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+.formselect:focus {
+  border: 1px solid rgb(207, 207, 207) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.formselect:focus {
+  border: 1px solid rgb(207, 207, 207) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

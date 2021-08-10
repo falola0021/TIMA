@@ -13,7 +13,7 @@ const Navigation = ({toggler}) => {
        <Navbar expand='lg'>
          <Container>
            <Navbar.Brand href='/'>
-<img className={Style.brandlogo} src='https://res.cloudinary.com/timang/image/upload/v1597037522/WhatsApp_Image_2020-08-09_at_7.58.33_PM_h85jes.jpg' />
+        <img className={Style.brandlogo} src='https://res.cloudinary.com/timang/image/upload/v1597037522/WhatsApp_Image_2020-08-09_at_7.58.33_PM_h85jes.jpg' />
 
            </Navbar.Brand>
            <Navbar.Toggle aria-controls='basic-navbar-nav' />

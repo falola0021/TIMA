@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Style from './Home.module.css'
-import { Container, Row, Col, Form, Button } from 'react-bootstrap'
-import { Select, FormControl, FormLabel, ThemeProvider } from '@chakra-ui/core'
+import { Container, Row, Col } from 'react-bootstrap'
+import { ThemeProvider } from '@chakra-ui/core'
 import PriceChecker from '../../components/pricechecker/PriceCheck'
 import FormStepper from '../../components/formStepper/FormStepper'
 
